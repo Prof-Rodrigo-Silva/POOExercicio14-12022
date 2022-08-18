@@ -12,10 +12,10 @@ public class executavel {
 	public static void main(String[] args) {
 
 		//initBanco();
-		//initSalvar();
+		initSalvar();
 		//initListar();
 		//initBuscar();
-		initAtualizar();
+		//initAtualizar();
 		//initDeletar();
 		//salvarTelefone();
 		//initListarAlunoTelefone();
@@ -36,8 +36,8 @@ public class executavel {
 		//classeDao.salvar(aluno);
 
 		//aluno.setId(2L);
-		aluno.setNome("Froning");
-		aluno.setEmail("froning@gmail.com");
+		aluno.setNome("Franser");
+		aluno.setEmail("matfranser@gmail.com");
 
 		classeDao.salvar(aluno);
 	}
